@@ -1,0 +1,17 @@
+# 1. Project Specific Data
+credit_card_data.csv
+
+# 2. Python Cache (Junk files Python makes automatically)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 3. Virtual Environments (If you ever use them later)
+venv/
+.venv/
+env/
+
+# 4. OS and Editor Files
+.vscode/
+.DS_Store
