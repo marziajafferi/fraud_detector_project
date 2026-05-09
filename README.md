@@ -9,6 +9,7 @@ In real-world financial data, fraudulent transactions represent a very small fra
 3. **Evaluation:** Prioritizing a Confusion Matrix and the Precision-Recall tradeoff over raw accuracy.
 
 ## 📊 Model Performance (The Precision-Recall Tradeoff)
+![Confusion Matrix](images/confusion_matrix.png)
 Despite a highly imbalanced dataset, the Random Forest model achieved the following on the Fraud class:
 * **Precision:** `0.85` (When the model flags fraud, it is correct 85% of the time, minimizing false alarms for innocent customers).
 * **Recall:** `0.52` (The model successfully caught 52% of all actual fraudulent transactions).
